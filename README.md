@@ -2,7 +2,7 @@
 I am a hospital medic - a consultant paediatrician - working in a teaching hospital in South London, UK
 I have a lot of medical interests, and look after children and young people with eating disorders, diabetes, obesity. I am fascinated by the time of life that is being a young person, emerging into adulthood. From a medical services perspective, young people often get a raw deal and I want to change that.
 
-I am married to the amazing [Dr Serena Haywood (@serenahaywood)](https://twitter.com/serenahaywood) and live in South London, have teenage boys and our retired greyhound, Trudy. We rescue chickens too. I used to encourage our boys to eat their vegetables a lot when they were littler, and so the name stuck.
+I am married to the amazing [Dr Serena Haywood](https://twitter.com/serenahaywood) and live in South London, have teenage boys and our retired greyhound, Trudy. We rescue chickens too. I used to encourage our boys to eat their vegetables a lot when they were littler, and so the name stuck.
 
 And I love tech, all things code, and in particular practical simple technology ideas that change and improve lives. The connectivity the mobile devices have given us all open possibities that most people in healthcare haven't begun to explore.
 
