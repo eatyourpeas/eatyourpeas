@@ -9,7 +9,7 @@ And I love tech, all things code, and in particular practical simple technology 
 
 ## Summarise your Github for me in a couple of paragraphs..
 
-The project I am proudest of is the most recent - check out the RCPCH growth charts API. This is the first time a medical royal college (the Royal College of Paediatrics and Child Health) has undertaken to host its own code. Coding a growth chart involves an amazing nerdy mix of interest in childhood growth, stats, charting and data visualisation. The team putting the API together are amazing and I am very privileged to be learning from some of the big names in UK Children's Growth Chart development.
+The project I am proudest of is the most recent - check out the [RCPCH growth charts API](https://github.com/rcpch). This is the first time a medical royal college (the Royal College of Paediatrics and Child Health) has undertaken to host its own code. Coding a growth chart involves an amazing nerdy mix of interest in childhood growth, stats, charting and data visualisation. The team putting the API together are amazing and I am very privileged to be learning from some of the big names in UK Children's Growth Chart development.
 
 The npm module was my first attempt at the growth chart algorithm, and is written in JS (obvs). I worked on the same thing in SqlServer with Chief Clinical Information Office, Dr Jack Barker and this has been live at King's College Hospital on our electronic health record for over 10 years.
 
