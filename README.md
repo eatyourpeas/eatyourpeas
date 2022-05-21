@@ -19,7 +19,7 @@ Other projects dabble in and around adolescent health or medical training. There
 
 ## Collaborating
 
-If you have an questions on my projects, or you are keen to collaborate please raise issues and send pull requests. Or I can be found most days [@eatyourpeas](https://twitter.com/eatyourpeas)
+If you have an questions on my projects, or you are keen to collaborate please raise issues and send pull requests. Or I can be found most days [@eatyourpeas](https://twitter.com/eatyourpeas) / [eatyour_peas](https://www.reddit.com/user/eatyour_peas)
 or....
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/eatyourpeas)
