@@ -26,11 +26,18 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "eatyourpeas.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: eatyourpeas
 github_username:  eatyourpeas
+minima:
+  social_links:
+    - { platform: github,  user_url: "https://github.com/eatyourpeas" }
+    - { platform: twitter, user_url: "https://twitter.com/eatyourpeas" }
 
 # Build settings
 theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
