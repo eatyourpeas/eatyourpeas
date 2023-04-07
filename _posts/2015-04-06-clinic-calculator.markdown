@@ -48,6 +48,6 @@ Clinic calculator
 
 Sitting in clinic once, faced with a 38 day old baby, born at 28+5 weeks, trying to work out if they should yet be smiling and when their first primary immunisations should start, made me realise how useless the electronic record I had in front of me was. It had no concept of prematurity or capacity to explain what 38 days was in months, let alone flag to me when immunisations might be due. So this frustration turned into my first journey into software, and android dev. This was much more accessible the iOS since I did not have a shiny mac and that was a prerequisite for working with Apple phones.
 
-![clinic-calculator]({{site.url}}/assets/img/cliniccalculator.png)
+![clinic-calculator]({{ '../assets/img/cliniccalculator.png' | relative_url }})
 
 Available for download [here](https://play.google.com/store/apps/details?id=com.eatyourpeas.cliniccalculator&hl=en&gl=US), it still works and still meets a need, sadly, although it has been on the store for a long time. 

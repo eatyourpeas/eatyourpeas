@@ -11,8 +11,7 @@ It was a chance clinic I sat in on my day off, in the hope of getting some train
 
 And as the patients started to file in one after the other, he came alive, apparently remembering them all with their personal circumstances, and making assessments and delivering advice with the confidence and charisma of a judge. And between the patients, we chatted a bit, mostly about what we had seen, each story the opportunity for an anecdote and a tutorial on the topic. At the end of the day he handed me a paper from his bag on imprinting in prader willi and beckwith wiedemann syndrome. I was hooked. From then my direction changed.
 
-
-## Endocrinolgoy
+## Endocrinology
 
 This is the study of hormones, in particular the identification and management of problems where they don't work. In children, a lot of this focusses on growth which is a hugely complicated topic and represents a heady mix of rigorous measuring, tests and interpretation of results, coupled with the really human impact of all that overspilling in the clinic room. Endocrinology sits in that space between when is someone too tall or too short - when is it 'nature' and when is 'illness'?
 
@@ -28,5 +27,5 @@ The only way to do this traditionally was with an atlas - now largely out of pri
 
 This, along with clinic calculator, was my first step into mobile development. Fuelled on by a wish to do this more efficiently, but not knowing how to code, I came across google [AppInventor](https://appinventor.mit.edu), now a tool for teaching children the concepts of programming. It has a series of blocks on the screen, like jigsaw pieces, which can be linked together to make loops or conditional statements. It was in this way that my first attempt at a bone age calculator came about, painstakingly uploading all the reference data to build it. Sadly I nolonger have images of it, but it was not pretty. For all that, it worked adequately on the smart phones of the early thousands. As time went by, I learnt android, and, once I had got past the confusing curly braces and semicolons, transferred the concepts I had learned to build the first version. Realising that most doctors have iPhones, I knew I would have to make the leap to objective C, and finally splashed out on my first mac. It was a reluctant step, but I have never looked back. My first attempt in XCode made full use of all the user interface tools available:
 
-![bone age]({{site.url}}/assets/img/tannerwhitehouse.png){: style="float: left; width: 50%; height: auto;"}
-![bone age]({{site.url}}/assets/img/tannerwhitehouse1.png){: style="float: right; width: 50%; height: auto;"}
+![bone age]({{ '../assets/img/tannerwhitehouse.png' | relative_url }}){: style="float: left; width: 50%; height: auto;"}
+![bone age]({{ '../assets/img/tannerwhitehouse1.png' | relative_url }}){: style="float: right; width: 50%; height: auto;"}
