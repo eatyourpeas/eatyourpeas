@@ -1,0 +1,34 @@
+---
+layout: post
+title:  "bone age"
+list_title: project
+date:   2016-04-06 20:46:20 +0100
+categories: jekyll update
+---
+As I went through paediatric training it took a while for me to develop a special interest, but as I look back, endocrinology, it turned out, had always been the subject for me. I have a degree of distractibility and restlessness that has often stopped me from committing to one thing, and so have tended to stick around in general medicine - here problems are largely untriaged, and the good generalist is adaptable, a jack of all trades and able to manage the common issues efficiently, without losing sight of the rare things that masqerade as something less. The vulnerabilty of any generalist is never the common presentation of a rare problem, it is the rarer presentation of a common problem or an unusual presentation of a rare problem. And to be honest, by then I had been in training already 5 years, and my head was not completely in my career by that point. I had married, had a baby and was focussing less on my career and more on my new family.
+
+It was a chance clinic I sat in on my day off, in the hope of getting some training, with Dr Charles Buchanan, paediatric endocrinologist in an outreach clinic somewhere in Kent, that my life changed. I was post nights, so pretty tired, but Dr B did not come out that way often, and his reputation was famous - so I stayed up and strolled on down to outpatients to wait deferently for him and beg a seat at the back of the room. He arrived late, and absent-mindedly started punching the keyboard with single fingers to login, dismissively agreeing for me to sit in. The patients had already started to build as he started through the list. I think by that point he had forgotten I was even there.
+
+And as the patients started to file in one after the other, he came alive, apparently remembering them all with their personal circumstances, and making assessments and delivering advice with the confidence and charisma of a judge. I was hooked. And between the patients, we chatted a bit, mostly about what we had seen, and at the end of the day he handed me a paper from his bag on imprinting in prader willi and beckwith wiedemann syndrome, and from then my direction changed.
+
+
+## Endocrinolgoy
+
+This is the study of hormones, in particular the identification and management of problems where they don't work. In children, a lot of this focusses on growth which is a hugely complicated topic and represents a heady mix of rigorous measuring, tests and interpretation of results, coupled with the really human impact of all that overspilling in the clinic room. Endocrinology sits in that space between when is someone too tall or too short - when is it 'nature' and when is 'illness'?
+
+And even within medicine, endocrinology has a particular reputation. It is seen as intellectually difficult and requiring patience as the real diagnosis may take some years to become clear. It is for people who don't mind playing the long game. In paediatrics it is usually easy to spot the endocrinologist. They have a good working knowledge of all the rarer tests that others steer clear of. Unit of time is the decimal age, already a slightly unfamiliar idea to other medics.
+
+One of the tests occasionally requested in endocrinology is the bone age. It was first thought of as useful in the 1960s, as a way of establishing a 'skeletal age' when assessing growth. The bones of children who are late to go through puberty appear younger than those of children who mature at the usual time, as the puberty hormones have not yet been able to influence bone development. This led to the concept of a bone age, the idea that one estimate the age of the child from an xray of the left hand alone, and then compare that with the actual age of the child. Whilst there is quite a range of error, the discrepancy between the two numbers could give clues to the underlying reason for the child's growth problem. Tables were developed of normal xray changes to expect in healthy children, that formed a template against which to compare results of those presenting to clinics with growth abnormalities.
+
+To medics not familiar with endocrinology, bone age is complicated. It requires a systematic approach to scoring the 20 bones of the hand (13 small bones, and 7 carpals), giving them each a score between A and I, which are then used to generate a raw score against which the bone age can be looked up.
+
+The only way to do this traditionally was with an atlas - now largely out of print, with reference images against which to score the xrays. You had to store up all the names and spend an afternoon at the computer with the atlas balanced on your lap and a cup of tea, typing the scores into the clinical record. The growth charts, where these scores are recorded, were all paper, although the clinical record soon was electronic, so you had to flip between the two. There was no form to type the results into, since the health care record has no concept of a bone age, so it would be written in free text into the notes.
+
+## Bone age
+
+This, along with clinic calculator, was my first step into mobile development. Fuelled on by a wish to do this more efficiently, but not knowing how to code, I came across google [AppInventor](https://appinventor.mit.edu), now a tool for teaching children the concepts of programming. It has a series of blocks on the screen, like jigsaw pieces, which can be linked together to make loops or conditional statements. It was in this way that my first attempt at a bone age calculator came about, painstakingly uploading all the reference data to build it. Sadly I nolonger have images of it, but it was not pretty. For all that, it worked adequately on the smart phones of the early thousands. As time went by, I learnt android, and, once I had got past the confusing curly braces and semicolons, transferred the concepts I had learned to build the first version. Realising the most doctors have iPhones, I knew I would have to make the leap to objective C, and finally splashed out on my first mac. It was a reluctant step, but I have never looked back. My first attempt in XCode made full use of all the user interface tools available:
+
+![image bone age]({{site.url}}/assets/img/tannerwhitehouse.png){: style="float: left; width: 50%; height: auto;"}
+![image bone age]({{site.url}}/assets/img/tannerwhitehouse1.png){: style="float: right; width: 50%; height: auto;"}
+
+

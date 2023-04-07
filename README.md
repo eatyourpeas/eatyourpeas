@@ -5,7 +5,7 @@ I am on the acute/emergency rota but, most of the time, look after children and 
 
 I am married to the amazing [Dr Serena Haywood](https://twitter.com/serenahaywood) and live in South London. We have teenage boys and a retired greyhound, Dusty Sampson Rocket. We rescue chickens too. I used to encourage our boys to eat their vegetables a lot when they were littler, and so the name stuck.
 
-And I love tech, all things code, and in particular practical simple technology ideas that change and improve lives. The connectivity the mobile devices have given us all open possibities that most people in healthcare haven't begun to explore.
+And I love tech, all things code, and in particular practical simple technology ideas that change and improve lives. The connectivity that mobile devices have given us all open possibities that most people in healthcare haven't begun to explore.
 
 ## Summarise your Github for me in a couple of paragraphs...
 
