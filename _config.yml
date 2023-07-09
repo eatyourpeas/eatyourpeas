@@ -40,6 +40,15 @@ plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
+header_pages:
+  - blog.md
+  - journey.md
+  - about.md
+
+collections:
+  journey:
+    output: true
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.

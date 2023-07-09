@@ -1,9 +1,9 @@
 ---
-layout: post
-title:  "bone age"
-list_title: project
-date:   2016-04-06 20:46:20 +0100
-categories: jekyll update
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
+title: 'bone age'
 ---
 As I went through paediatric training it took a while for me to develop a special interest, but as I look back, endocrinology, it turned out, had always been the subject for me. I have a degree of distractibility and restlessness that has often stopped me from committing to one thing, and so have tended to stick around in general medicine - here problems are largely untriaged, and the good generalist is adaptable, a jack of all trades and able to manage the common issues efficiently, without losing sight of the rare things that masqerade as something less. The vulnerabilty of any generalist is never the common presentation of a rare problem, it is the rarer presentation of a common problem. And to be honest, by then I had been in training already 5 years, and my head was not completely in my career by that point. I had married, had a baby and was focussing more on my new family.
 

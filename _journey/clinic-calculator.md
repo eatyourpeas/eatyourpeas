@@ -1,9 +1,9 @@
 ---
-layout: post
-title:  "clinic calculator"
-list_title: project
-date:   2015-04-06 20:46:20 +0100
-categories: jekyll update
+# Feel free to add content and custom Front Matter to this file.
+# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+
+layout: page
+title: 'clinic calculator'
 ---
 Clinic calculator was the first project and although simple in scope, ended up being a deep dive into what a date means, and what age is.
 

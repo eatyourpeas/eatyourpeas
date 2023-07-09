@@ -18,6 +18,36 @@ p {
     font-family: 'Inconsolata';
 }
 
+li:hover a {
+    font-family: 'Inconsolata';
+    color: #3D661E;
+    text-decoration: none;
+}
+
+li {
+    font-family: 'Inconsolata';
+    color: #7BCD3D;
+    list-style-type: square;
+}
+
+li a{
+    font-family: 'Inconsolata';
+    color: #7BCD3D !important;
+}
+
+li::marker{
+    color: #7BCD3D;
+}
+
+a {
+    color: #7BCD3D;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #3D661E;
+}
+
 .nhsrecords {
     object-fit: fill;
     width: 100%;

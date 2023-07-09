@@ -1,9 +1,6 @@
 ---
-layout: post
+layout: page
 title:  "marsipan"
-list_title: project
-date:   2017-04-06 20:46:20 +0100
-categories: jekyll update
 ---
 In 2010 I was appointed as consultant in paediatrics, a culmination of years of study, exams and training. A large part of the job was to work attached to a child and adolescent eating disorders service, supporting the therapists and psychiatrists with the medical risks which young people malnourished with eating disorders often have. If the risks are too high, the young people need to be in hospital, but the judgements as to what risk is, who needs to be in hospital, what needs to happen in hospital when they get there - all this is quite subjective. Recent medical history is littered with serious avoidable events - tragic stories where the level of risk a young person had was not recognised by clinicians or there was poor communication between the different services involved. This has lead to 'serious case reviews', and even a wide-ranging review by the parliamentary health services ombudsman (PHSO), the body that adjudicates in NHS failings when the NHS is unable to police itself. It is in this context that MaRSiPAN (Management of at risk, sick patients with anorexia nervosa) came to be, and it was around the time I came into post.
 
