@@ -13,4 +13,4 @@ The are a handful of implementations of children's growth charts, and all of the
 
 Rather than bundle the complicated calculations into the charts and publish as a standalone application, RCPCH took the unique step of separating the calculation logic from the charting and publishing the caclulation as an API. 
 
-This is the first proper production level project I had been involved in, and as a small agile team, Marcus and I put the project together inside of 18 months, together with a full suite of tests, continuous integration, [documentatin and a demo site](https://growth.rcpch.ac.uk).
+This is the first proper production level project I had been involved in, and as a small agile team, Marcus and I put the project together inside of 18 months, together with a full suite of tests, continuous integration, [documentation and a demo site](https://growth.rcpch.ac.uk).
