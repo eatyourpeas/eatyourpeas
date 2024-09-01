@@ -36,16 +36,14 @@ The original description of bone age involved scoring all 20 bones of the hand, 
 
 The Tanner-Whitehouse system was devised as part of a [bigger project](https://eprints.lancs.ac.uk/id/eprint/74802/1/Tanner_scale_history_sexualitiesfinal.pdf) looking at growth in the context of nutrition using serial x-rays of children in care in Harpenden, Hertfordshire in the post war years. The ethics of this has been discussed in some detail in the journals. It involves an AP xray of the left hand (irrespective of handedness). The user works through the bones, assessing the epiphyses of each and scoring them between A and I (or A and H depending on the bone) using the detailed criteria as described in the original atlas. The earlier scores are less reliable as mineralisation has not really started - many people don't do bone ages in the under 5s anyway. Most of the criteria have a concept of whether mineralisation is as wide as or wider than the epiphysis, and also a concept of 'capping': this happens usually around puberty. The process is nicely described in the atlas its self or in [this review](https://www.frontiersin.org/journals/endocrinology/articles/10.3389/fendo.2022.967711/full).
 
-The screen is portrait view. The radio buttons down the left hand side set the grade - toggling between them updates the description and the image guide. Pressing the icon over the image flips between x-ray view and cartoon view.  <br/>
+The screen is portrait view. The radio buttons down the left hand side set the grade - toggling between them updates the description and the image guide. Pressing the icon over the image flips between x-ray view and cartoon view.  <br>
 
 ![bone-age]({{ '../assets/boneage/a-grade.png' | relative_url }}){: style="float: left; width: 35%; height: auto;  margin: 10px"}
-![bone-age]({{ '../assets/boneage/f-grade-unselected.png' | relative_url }}){: style="float: right; width: 35%; height: auto;  margin: 10px"}  <br/>
+![bone-age]({{ '../assets/boneage/f-grade-unselected.png' | relative_url }}){: style="float: right; width: 35%; height: auto;  margin: 10px"}  <br>
 
----
+### Saving the grade
 
-## Saving the grade
-
-Selecting the grade will not include it in the final score though. To save the selection for each bone, press the plus button on the bottom right of the screen. This will cause the description panel and image to slide into the middle of the screen and the grade radio buttons to fade out. A diagram of the bones with the bones scored filled in red appears for 2-3 seconds to signal which bones have been scored. Once the minimum number of bones have been scored, a toast notification at the foot of the screen appears and the calculate button is enabled. The reports the result to the screen.  <br/>
+Selecting the grade will not include it in the final score though. To save the selection for each bone, press the plus button on the bottom right of the screen. This will cause the description panel and image to slide into the middle of the screen and the grade radio buttons to fade out. A diagram of the bones with the bones scored filled in red appears for 2-3 seconds to signal which bones have been scored. Once the minimum number of bones have been scored, a toast notification at the foot of the screen appears and the calculate button is enabled. The reports the result to the screen.  <br>
 
 ![bone-age]({{ '../assets/boneage/selected-distal-v.png' | relative_url }}){: style="float: left; width: 35%; height: auto;  margin: 10px"}
 ![bone-age]({{ '../assets/boneage/result.png' | relative_url }}){: style="float: right; width: 35%; height: auto;  margin: 10px"}
