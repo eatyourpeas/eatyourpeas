@@ -41,9 +41,11 @@ The screen is portrait view. The radio buttons down the left hand side set the g
 ![bone-age]({{ '../assets/boneage/a-grade.png' | relative_url }}){: style="float: left; width: 35%; height: auto;  margin: 10px"}
 ![bone-age]({{ '../assets/boneage/f-grade-unselected.png' | relative_url }}){: style="float: right; width: 35%; height: auto;  margin: 10px"}  <br>
 
+<p>
 ### Saving the grade
 
 Selecting the grade will not include it in the final score though. To save the selection for each bone, press the plus button on the bottom right of the screen. This will cause the description panel and image to slide into the middle of the screen and the grade radio buttons to fade out. A diagram of the bones with the bones scored filled in red appears for 2-3 seconds to signal which bones have been scored. Once the minimum number of bones have been scored, a toast notification at the foot of the screen appears and the calculate button is enabled. The reports the result to the screen.  <br>
+</p>
 
 ![bone-age]({{ '../assets/boneage/selected-distal-v.png' | relative_url }}){: style="float: left; width: 35%; height: auto;  margin: 10px"}
 ![bone-age]({{ '../assets/boneage/result.png' | relative_url }}){: style="float: right; width: 35%; height: auto;  margin: 10px"}
