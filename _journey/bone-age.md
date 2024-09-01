@@ -38,13 +38,12 @@ THe Tanner-Whitehouse system was devised as part of a [bigger project](https://e
 
 The screen is portrait view. The radio buttons down the left hand side set the grade - toggling between them updates the description and the image guide. Pressing the icon over the image flips between x-ray view and cartoon view.
 
-![bone-age]({{ '../assets/boneage/a-grade.png' | relative_url }}){: style="float: left; width: 50%; height: auto;"}
-![bone-age]({{ '../assets/boneage/f-grade-unselected.png' | relative_url }}){: style="float: right; width: 50%; height: auto;"}
+![bone-age]({{ '../assets/boneage/a-grade.png' | relative_url }}){: style="float: left; width: 50%; height: auto;  padding: 10px"}
+![bone-age]({{ '../assets/boneage/f-grade-unselected.png' | relative_url }}){: style="float: right; width: 50%; height: auto;  padding: 10px"}
 
-Selecting the grade will not include it in the final score though. To save the selection for each bone, press the plus button on the bottom right of the screen. This will cause the description panel and image to slide into the middle of the screen and the grade radio buttons to fade out. A diagram of the bones with the bones scored filled in red appears for 2-3 seconds to signal which bones have been scored.
+Selecting the grade will not include it in the final score though. To save the selection for each bone, press the plus button on the bottom right of the screen. This will cause the description panel and image to slide into the middle of the screen and the grade radio buttons to fade out. A diagram of the bones with the bones scored filled in red appears for 2-3 seconds to signal which bones have been scored. Once the minimum number of bones have been scored, a toast notification at the foot of the screen appears and the calculate button is enabled. The reports the result to the screen.
 
-![bone-age]({{ '../assets/boneage/selected-distal-v.png' | relative_url }}){: style="float: left; width: 50%; height: auto;"}
+![bone-age]({{ '../assets/boneage/selected-distal-v.png' | relative_url }}){: style="float: left; width: 50%; height: auto;  padding: 10px"}
+![bone-age]({{ '../assets/boneage/result.png' | relative_url }}){: style="float: right; width: 50%; height: auto;  padding: 10px"}
 
-Once the minimum number of bones have been scored, a toast notification at the foot of the screen appears and the calculate button is enabled. The reports the result to the screen.
 
-![bone-age]({{ '../assets/boneage/result.png' | relative_url }}){: style="float: right; width: 50%; height: auto;"}

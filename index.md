@@ -5,7 +5,7 @@ permalink: /
 ---
 ## welcome
 
-If you have come here from google and are looking for guidance on using the Bone Age app, there is an explainer [here]({{'./_journey/bone-age.md'| relative_url }}).
+If you have come here from google and are looking for guidance on using the Bone Age app, there is an explainer [here]({% link _journey/bone-age.md %}).
 
 Otherwise, for anyone who is interested, this site is both for information on software I have been part of building, as well as my own personal experiences of software development, particularly in health, and particularly in the UK.
 
