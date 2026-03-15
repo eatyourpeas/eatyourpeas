@@ -1,0 +1,108 @@
+---
+---
+@import "style";
+
+/* Local fonts */
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/assets/fonts/IBMPlexSans-Light.ttf');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/assets/fonts/IBMPlexSans-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'IBM Plex Sans';
+    src: url('/assets/fonts/IBMPlexSans-Medium.ttf');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('/assets/fonts/Inconsolata-Regular.ttf');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Inconsolata';
+    src: url('/assets/fonts/Inconsolata-Medium.ttf');
+    font-weight: 500;
+}
+
+/* Typography overrides */
+body {
+    font-family: 'Inconsolata', monospace;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+li {
+    color: #228B22;
+    list-style-type: square;
+}
+
+li a {
+    color: #228B22 !important;
+}
+
+li::marker {
+    color: #228B22;
+}
+
+li:hover a {
+    color: #3D661E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #3D661E;
+    text-decoration: none;
+}
+
+/* Site logo in navbar */
+.site-logo {
+    height: 28px;
+    vertical-align: middle;
+    margin-right: 8px;
+    border-radius: 50%;
+}
+
+/* Social links in footer */
+.social-link {
+    color: #228B22;
+}
+.social-link:hover {
+    color: #3D661E;
+}
+
+/* Hero banner */
+.hero {
+    width: 100%;
+    min-height: 220px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('/assets/medicalrecords.jpeg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    border-radius: 4px;
+}
+.hero-content {
+    text-align: center;
+    padding: 20px;
+}
+.hero-title {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 2.4rem;
+    color: #228B22;
+    margin-bottom: 10px;
+}
+.hero-desc {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.1rem;
+    color: #ffffff;
+    margin: 0;
+}
