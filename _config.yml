@@ -36,6 +36,9 @@ minima:
 # Build settings
 theme: minima
 remote_theme: jekyll/minima
+
+sass:
+  quiet_deps: true       # suppress deprecation warnings from gem dependencies (minima 2.x)
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
