@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<div class="project-meta">
+  <div class="project-meta-grid">
+    {% if page.status %}
+    <div class="meta-item">
+      <span class="meta-label">Status</span>
+      <span class="meta-value status-badge status-{{ page.status | slugify }}">{{ page.status }}</span>
+    </div>
+    {% endif %}
+    {% if page.repository and page.repository != 'N/A' %}
+    <div class="meta-item">
+      <span class="meta-label">Repository</span>
+      <span class="meta-value"><a href="{{ page.repository }}">{{ page.repository | remove: 'https://github.com/' }}</a></span>
+    </div>
+    {% endif %}
+    {% if page.app_url and page.app_url != 'N/A' %}
+    <div class="meta-item">
+        <span class="meta-label">App</span>
+      <span class="meta-value">{{ page.app_url | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</span>
+    </div>
+    {% endif %}
+    {% if page.docs and page.docs != 'N/A' %}
+    <div class="meta-item">
+      <span class="meta-label">Docs</span>
+      <span class="meta-value"><a href="{{ page.docs }}">{{ page.docs | remove: 'https://github.com/' }}</a></span>
+    </div>
+    {% endif %}
+    {% if page.issues and page.issues != 'N/A' %}
+    <div class="meta-item">
+      <span class="meta-label">Issues</span>
+      <span class="meta-value">
+        {% if page.issues contains '@' %}
+        <a href="mailto:{{ page.issues }}">{{ page.issues }}</a>
+        {% else %}
+        {{ page.issues }}
+        {% endif %}
+      </span>
+    </div>
+    {% endif %}
+  </div>
+</div>
+
+{{ content }}
