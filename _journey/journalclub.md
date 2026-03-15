@@ -1,7 +1,7 @@
 ---
 layout: project
 title: 'JournalClub'
-repository: '[JournalClub](https://github.com/eatyourpeas/journalclub)'
+repository: '[JournalClub](https://github.com/eatyourpeas/journalclub/)'
 issues: '[Issues](https://github.com/eatyourpeas-ltd/checktick/issues)'
 app_url: '[JournalClub](https://eatyourpeas.github.io/journalclub/)'
 docs: 'https://eatyourpeas.github.io/journalclub/base.html?page=docs'
