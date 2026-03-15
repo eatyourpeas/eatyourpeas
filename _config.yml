@@ -18,37 +18,39 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-author:
-  - email: "simon@eatyourpeas.co.uk"
-  - name: "eatyourpeas"
+author: eatyourpeas
 title: eatyourpeas
-description: >- # this means to ignore newlines until "baseurl:"
+description: >-
   {...clinical coding...}
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://eatyourpeas.co.uk" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://eatyourpeas.co.uk"
 twitter_username: eatyourpeas
 github_username:  eatyourpeas
-minima:
-  social_links:
-    - { platform: github,  user_url: "https://github.com/eatyourpeas" }
-    - { platform: twitter, user_url: "https://twitter.com/eatyourpeas" }
 
 # Build settings
-theme: minima
-remote_theme: jekyll/minima
+remote_theme: ankitsultana/researcher
+
+sass:
+  quiet_deps: true
+
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
 
-header_pages:
-  - blog.md
-  - journey.md
-  - about.md
-  - privacy.md
-
 collections:
   journey:
     output: true
+
+# Researcher theme navigation
+nav:
+  - name: "Projects"
+    link: "/projects"
+  - name: "About"
+    link: "/about"
+
+footer: true
+footer_url: "https://github.com/eatyourpeas"
+footer_text: "eatyourpeas"
 
 
 # Exclude from processing.
