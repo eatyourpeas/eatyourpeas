@@ -23,20 +23,5 @@ Other projects dabble in and around adolescent health or medical training. There
 If you have an questions on my projects, or you are keen to collaborate please raise issues and send pull requests. Or I can be found most days [eatyour_peas](https://www.reddit.com/user/eatyour_peas)
 or....
 
-## Local Jekyll setup
-
-This site uses Bundler with a repo-local install path so gems are installed into `vendor/bundle` rather than the system Ruby directories. That avoids permission errors with Homebrew Ruby.
-
-For Ruby version management, this repo includes a `.ruby-version` file. Tools like `rbenv`, `asdf`, `mise`, and `chruby` can use that file to switch to the expected Ruby automatically when you enter the project directory.
-
-Typical setup:
-
-```sh
-bundle install
-bundle exec jekyll serve
-```
-
-If your current Ruby does not match `.ruby-version`, install that version with your preferred manager first.
-
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/eatyourpeas)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
