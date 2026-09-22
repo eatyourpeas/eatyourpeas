@@ -6,13 +6,13 @@ layout: default
     {% if page.status %}
     <div class="meta-item">
       <span class="meta-label">Status</span>
-      <span class="meta-value status-badge status-{{ page.status | slugify }}">{{ page.status }}</span>
+      <span class="meta-value status-badge status-{{ page.status | slugify }}">{{ page.status | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</span>
     </div>
     {% endif %}
     {% if page.repository and page.repository != 'N/A' %}
     <div class="meta-item">
       <span class="meta-label">Repository</span>
-      <span class="meta-value"><a href="{{ page.repository }}">{{ page.repository | remove: 'https://github.com/' }}</a></span>
+      <span class="meta-value">{{ page.repository | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</span>
     </div>
     {% endif %}
     {% if page.app_url and page.app_url != 'N/A' %}
@@ -24,18 +24,14 @@ layout: default
     {% if page.docs and page.docs != 'N/A' %}
     <div class="meta-item">
       <span class="meta-label">Docs</span>
-      <span class="meta-value"><a href="{{ page.docs }}">{{ page.docs | remove: 'https://github.com/' }}</a></span>
+      <span class="meta-value">{{ page.docs | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}</span>
     </div>
     {% endif %}
     {% if page.issues and page.issues != 'N/A' %}
     <div class="meta-item">
       <span class="meta-label">Issues</span>
       <span class="meta-value">
-        {% if page.issues contains '@' %}
-        <a href="mailto:{{ page.issues }}">{{ page.issues }}</a>
-        {% else %}
-        {{ page.issues }}
-        {% endif %}
+        {{ page.issues | markdownify | remove: '<p>' | remove: '</p>' | strip_newlines }}
       </span>
     </div>
     {% endif %}

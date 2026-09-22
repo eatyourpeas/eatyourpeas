@@ -1,9 +1,9 @@
 ---
 layout: project
 title: 'CheckTick'
-repository: '[ChecTick](https://github.com/eatyourpeas-ltd/checktick)'
+repository: '[CheckTick](https://github.com/eatyourpeas-ltd/checktick)'
 issues: '[Issues](https://github.com/eatyourpeas-ltd/checktick/issues)'
-app_url: '[CheckTIck](https://checktick.uk/home)'
+app_url: '[CheckTick](https://checktick.uk/home)'
 docs: 'https://checktick.uk/docs'
 status: 'live'
 ---
